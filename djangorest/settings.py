@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'app.apps.AppConfig',   # activate the new app
+    'rest_framework',   # register django rest framework
 ]
 
 MIDDLEWARE = [
