@@ -17,6 +17,10 @@ Including another URL conf
 from django.contrib import admin
 from django.urls import path, include
 
+admin.site.site_header = "Medstore Admin"
+admin.site.site_title = "Medstore Admin Portal"
+admin.site.index_title = "Welcome to Medstore"
+
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('app.urls')),
